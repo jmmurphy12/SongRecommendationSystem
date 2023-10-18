@@ -20,7 +20,7 @@ for genre in genres['genres']:
         seed_genres=[genre], limit=200)['tracks']
 
 
-
+print("what")
 
 # Now, top_tracks is a dictionary where each key is a genre, and the value is a list of the top 200 tracks in that genre.
 # You can process this data further as needed.
